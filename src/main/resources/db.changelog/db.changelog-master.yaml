@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: migration/CreateTableCustomers.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migration/CreateTableOrders.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migration/InsertTableCustomers.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migration/InsertTableOrders.sql
+      relativeToChangeLogFile: true
